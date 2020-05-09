@@ -1,0 +1,6 @@
+web:
+  build: ./flaskapp-docker
+  ports:
+   - "5050:5050"
+  volumes:
+   - .:/code
